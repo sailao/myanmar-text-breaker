@@ -1,5 +1,7 @@
 # Myanmar Text Breaker
 
+use es6 module .
+
 Syllable and word, breaker/boundary-segmentation for Myanmar text in JavaScript.
 
 ## Usage

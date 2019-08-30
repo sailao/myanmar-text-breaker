@@ -223,8 +223,8 @@ function get_break_status(before, after) {
 		[ 3, 2, 0, 0, 0, 0, 0, 2, 0 ]  // S
 	];
 
-	firstClass = get_char_class(before);
-	secondClass = get_char_class(after);
+	const firstClass = get_char_class(before);
+	const secondClass = get_char_class(after);
 
 	return BKSTATUS[firstClass][secondClass];
 }
