@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
-app.post('/messages', (req, res) => {
+app.post('/bot/messages', (req, res) => {
     const message = {
         syllable: syllable(req.body.text),
         word: word(req.body.text)
