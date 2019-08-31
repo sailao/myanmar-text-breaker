@@ -14,7 +14,7 @@ app.post('/bot/messages', (req, res) => {
         syllable: syllable(req.body.text),
         word: word(req.body.text)
     };
-    return res.send(message);
+    return res.json(message);
 });
 
 app.listen(process.env.PORT, () =>
